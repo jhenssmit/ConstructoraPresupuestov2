@@ -103,7 +103,7 @@ foreach ($formularioDatos4 as $key => $data) {
     $formularioHTML .= '<input type="hidden" name="precioMedio[]" value="' . $cantidad3 . '">';
     $formularioHTML .= '<input type="hidden" name="precioAlto[]" value="' . $cantidad4 . '">';
     $pared = "1";
-    $formularioHTML .= '<input type="" name="idElemento[]" value="' . $pared . '">';
+    $formularioHTML .= '<input type="hidden" name="idElemento[]" value="' . $pared . '">';
     $formularioHTML .= '<input type="hidden" name="precioBajoT[]" value="' . $totalPrecioBajo + $totalPresupuesto2  . '">';
     $formularioHTML .= '<input type="hidden" name="precioMedioT[]" value="' . $totalPrecioMedio+ $totalPresupuesto2  . '">';
     $formularioHTML .= '<input type="hidden" name="precioAltoT[]" value="' . $totalPrecioAlto+ $totalPresupuesto2  . '">';
